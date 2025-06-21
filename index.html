@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style link-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Header Section-->
+    <header class="header">
+        <a href="#" class="logo" >Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="home-content">  
+        <h3>Hello, I am</h3>
+        <h1>HARSHITA SURI</h1>
+        <h3>I am a <span>Software Developer & AI Enthusiast</span></h3>
+        <p>I’m a Computer Science Engineering student with a strong foundation in Python, Java, C, and the MERN stack. I’m passionate about building user-centric, scalable web applications and AI tools that make a meaningful difference—whether it's detecting deepfakes, offering chatbot therapy, or building smart waste classifiers.</p>
+        <div class="social-media">
+            <a href="https://github.com/Harshita26705"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/harshita-suri-8a3a79270"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://leetcode.com/harshita-suri"><i class="fa-solid fa-code"></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1y7qFh5U7byhkpM6SZtke6CQsVQueKpiQ/view?usp=sharing" class="btn">Download CV</a>
+    </div>
+    <div class="photo-container">
+  <div class="blob-shape"></div>
+  <img src="formalphoto.png" alt="My Photo" class="main-photo">
+</div>
+</section>
+
+
+
+<!-- About Section -->
+<section class="about" id="about">
+
+
+
+
+    <!---
+    <div class="about-img">
+        <img src="photo.jpg" alt="Harshita">
+    </div>
+-->
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer & AI Explorer</h3>
+        <p>Hi! I’m Harshita Suri, a Computer Science Engineering student from Delhi, India, passionate about building impactful, user-friendly digital experiences. I specialize in front-end development using HTML, CSS, and Bootstrap, and I’m currently advancing my skills in JavaScript and the MERN stack. My projects span from AI-powered tools to socially driven tech solutions, where I blend logic, design, and innovation to create meaningful outcomes.</p>
+
+        <p class="extra-content" style="display: none;">
+            I also have hands-on experience with machine learning, API integration, and developing real-world prototypes. Whether it’s crafting clean user interfaces, connecting APIs, deploying projects on platforms like Hugging Face, or designing intuitive user flows — I aim to build seamless, scalable, and smart experiences.
+
+I'm a GATE 2025 qualifier, a regular hackathon participant, and actively engaged in research and tech communities. Let’s collaborate and create tech that truly matters!
+        </p>
+        <a href="#" class="btn" id="read-more-btn">Read More</a>
+    </div>
+</section>
+
+
+
+<!-- Service Section-->
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I create responsive, user-friendly websites using HTML, CSS, JavaScript, and the MERN stack.
+                     I focus on delivering fast, secure, and visually appealing web experiences.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-link"></i>
+                <h3>AI/ML</h3>
+                <p>I develop intelligent systems powered by AI and ML to automate processes, analyze data, and enhance decision-making.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>Project Consultation & Debugging</h3>
+                <p>I help plan, structure, and refine your projects.
+                     From brainstorming ideas to debugging complex issues, I provide support to optimize your code.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>   
+
+    <!--Portfolio Section-->
+
+    <section class="portfolio" id="portfolio">
+
+        <h2 class="heading">Latest <span>Projects</span> </h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>🔐 Smart Document Redactor</h4>
+                    <p>A privacy-focused tool that automatically redacts personal and sensitive information from PDFs, images, and DOCX files. Uses OCR, regex, and face detection to protect identity while preserving document structure.
+</p>
+                    <a href="https://huggingface.co/spaces/HarshitaSuri/doc-redactor-docker"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>♻️ RegenWaste: AI-Based Waste Management System</h4>
+                    <p>An intelligent system that classifies waste in real-time using machine learning and segregates it via a robotic arm. Residual waste is converted into EcoCeramAsh, which is reused for bricks, fertilizers, and wastewater treatment.
+</p>
+                    <a href="https://github.com/Harshita26705/RegenWasteClassifier"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>🎯 Deepfake Confidence Score </h4>
+                    <p>DeepCheck is a lightweight Chrome extension that analyzes images in real time and calculates a deepfake confidence score using AI. If an image is flagged as likely fake, the extension alerts the user instantly — helping fight misinformation and identity fraud online.</p>
+                    <a href="https://github.com/TechVesrse-CT-University/CodeFusion"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>💬 YapBuddy: AI-Powered Speech Companion</h4>
+                    <p>A Telegram-based chatbot that interacts with users and detects sentiment in real-time. Designed for users dealing with stress or emotional challenges, offering empathetic AI-driven replies based on mood.</p>
+                    <a href="https://github.com/Harshita26705/YapBuddy"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>🛡️ PeepShield AI</h4>
+                    <p>An AI-powered privacy tool that detects unwanted screen peeking using your webcam and instantly hides sensitive content to prevent shoulder surfing.
+
+</p>
+                    <a href=" "><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>🎭 DeepBuzz</h4>
+                    <p>A web scraping tool that scans online platforms for potential deepfakes of a person using facial and metadata cues. If matches are found, it flags and reports them to help protect identity and digital reputation.</p>
+                    <a href="  "><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section--
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span> </h2>
+
+        <form action="https://formspree.io/f/mnnvblyl" method>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="">
+                <input type="email" placeholder="Enter Email Address" id="">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" cols="30" rows="10" id="" placeholder="Enter Your Message"></textarea>
+            <input type="button" value="Submit" class="btn">
+        </form>
+    </section>  -->
+
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formspree.io/f/mnnvblyl" method="POST">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Enter Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <input type="tel" name="phone" placeholder="Mobile Number">
+            <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+
+        <textarea name="message" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</section>
+
+
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
